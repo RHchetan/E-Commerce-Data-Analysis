@@ -19,9 +19,9 @@ The primary goal of this project is to:
 ```
 E-Commerce-Analysis/
 │
-├── E-Commerce.ipynb       # Jupyter Notebook with analysis and visualizations
+├── E-Commerce.ipynb            # Jupyter Notebook with analysis and visualizations
 ├── Sample - Superstore.csv     # Sample e-commerce transaction data file
-├── README.md              # Project description and documentation
+├── README.md                   # Project description and documentation
 ```
 
 **Note:**  

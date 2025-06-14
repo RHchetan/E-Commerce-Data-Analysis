@@ -19,9 +19,9 @@ The primary goal of this project is to:
 ```
 E-Commerce-Analysis/
 │
-├── E-Commerce.ipynb       # Jupyter Notebook with analysis and visualizations
-├── README.md              # Project description and documentation
-└── requirements.txt       # List of Python libraries used
+## 📓 Jupyter Notebook
+
+You can view the complete analysis in this [Jupyter Notebook](E-Commerce.ipynb).
 ```
 
 ---

@@ -1,6 +1,6 @@
 # 📦 E-Commerce Data Analysis 📊
 
-Welcome to the **E-Commerce Data Analysis** project! This repository contains a Jupyter Notebook for exploring, analyzing, and deriving insights from e-commerce transaction data. The project leverages Python libraries for data manipulation, visualization, and exploratory data analysis (EDA).
+Welcome to the **E-Commerce Data Analysis** project! This repository contains a Jupyter Notebook for exploring, analyzing, and deriving insights from e-commerce transaction data. The project leverages Python libraries for data manipulation and interactive visualizations.
 
 ---
 
@@ -21,7 +21,7 @@ E-Commerce-Analysis/
 │
 ├── E-Commerce.ipynb       # Jupyter Notebook with analysis and visualizations
 ├── README.md              # Project description and documentation
-└── requirements.txt       # List of Python libraries (optional)
+└── requirements.txt       # List of Python libraries used
 ```
 
 ---
@@ -32,8 +32,7 @@ E-Commerce-Analysis/
 - **Sales Trends Analysis:** Revenue trends over time.
 - **Product Performance Analysis:** Best-selling products and categories.
 - **Customer Behavior Analysis:** Order frequency, popular purchase days.
-- **Geographical Analysis:** Sales distribution by region (if available).
-- **Data Visualization:** Bar charts, line graphs, pie charts using `Matplotlib` and `Seaborn`.
+- **Interactive Data Visualizations:** Using `plotly.express` for dynamic, zoomable charts.
 
 ---
 
@@ -42,9 +41,7 @@ E-Commerce-Analysis/
 - **Python 3.x**
 - **Jupyter Notebook**
 - **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
+- **Plotly Express**
 
 ---
 
@@ -59,16 +56,15 @@ cd E-Commerce-Analysis
 
 2. **Install the required libraries:**
 
-If there's a `requirements.txt`:
-
 ```bash
 pip install -r requirements.txt
 ```
 
-Or manually install the key libraries:
+**requirements.txt:**
 
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
+```
+pandas
+plotly
 ```
 
 ---
@@ -81,38 +77,21 @@ Launch Jupyter Notebook in your terminal:
 jupyter notebook E-Commerce.ipynb
 ```
 
-Run all cells sequentially to execute the analysis and view visualizations.
-
----
-
-## 📊 Sample Visualizations
-
-_You can add images in a folder called `images/` and link them here:_
-
-```
-![Revenue Trends](images/revenue_trend.png)
-![Top Products](images/top_products.png)
-```
+Run all cells sequentially to execute the analysis and view interactive visualizations.
 
 ---
 
 ## 📌 Future Work
 
-- Deploy an interactive dashboard using **Streamlit** or **Dash**.
-- Perform predictive analytics for sales forecasting.
-- Integrate customer segmentation and clustering analysis.
+- Deploy an interactive web dashboard using **Dash** or **Streamlit**.
+- Perform customer segmentation analysis.
+- Integrate predictive sales forecasting models.
 
 ---
 
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙌 Acknowledgments
-
-Special thanks to the open-source Python community for their libraries and resources that made this project possible.
 
 ---
 

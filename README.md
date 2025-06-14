@@ -19,10 +19,13 @@ The primary goal of this project is to:
 ```
 E-Commerce-Analysis/
 │
-## 📓 Jupyter Notebook
-
-You can view the complete analysis in this [Jupyter Notebook](E-Commerce.ipynb).
+├── E-Commerce.ipynb       # Jupyter Notebook with analysis and visualizations
+├── Sample - Superstore.csv     # Sample e-commerce transaction data file
+├── README.md              # Project description and documentation
 ```
+
+**Note:**  
+The **Jupyter Notebook (`E-Commerce.ipynb`)** and **sample CSV data file (`Sample - Superstore.csv`)** have been attached to this repository for easy access and testing.
 
 ---
 
@@ -80,25 +83,3 @@ jupyter notebook E-Commerce.ipynb
 Run all cells sequentially to execute the analysis and view interactive visualizations.
 
 ---
-
-## 📌 Future Work
-
-- Deploy an interactive web dashboard using **Dash** or **Streamlit**.
-- Perform customer segmentation analysis.
-- Integrate predictive sales forecasting models.
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-For questions or feedback:
-
-**U Chetan Barma**  
-📧 Email: [your-email@example.com]  
-🔗 LinkedIn: [your-linkedin-profile](https://www.linkedin.com)
